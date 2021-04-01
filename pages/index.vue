@@ -12,8 +12,7 @@ import AppRestaurantInfo from "@/components/AppRestaurantInfo.vue";
 export default {
   components: {
     AppHeader,
-    AppRestaurantInfo: () =>
-      import(/* webpackPrefetch: true */ "@/components/AppRestaurantInfo.vue"),
+    
   },
   computed: {
     fooddata() {

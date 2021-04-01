@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     priceFormatting(item) {
-      return "$" + item.toFixed(2);
+      return  item.toFixed(2)+ "AZN";
     },
   },
 };
